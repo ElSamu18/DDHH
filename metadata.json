@@ -1,0 +1,6 @@
+{
+  "name": "Foro de Derechos Humanos - Comisiones Módulo 4",
+  "description": "Plataforma informativa y de organización colaborativa para conformar las comisiones de trabajo del Foro de Derechos Humanos del Módulo 4 (Interanual de DDHH).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

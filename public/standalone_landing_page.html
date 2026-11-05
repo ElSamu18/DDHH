@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>COMISIONES PARA EL FORO DE DERECHOS HUMANOS | Módulo 4</title>
+  <meta name="description" content="Organización colaborativa para el evento del Módulo 4. Inscríbete en las comisiones de Logística, Académica, Protocolo y Difusión." />
+
+  <!-- Tipografía Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    }
+    @keyframes cta-pulse {
+      0%, 100% {
+        transform: scale(1);
+        box-shadow: 0 10px 25px -5px rgba(13, 148, 136, 0.4), 0 8px 10px -6px rgba(13, 148, 136, 0.3);
+      }
+      50% {
+        transform: scale(1.03);
+        box-shadow: 0 20px 30px -10px rgba(13, 148, 136, 0.55), 0 10px 15px -3px rgba(13, 148, 136, 0.4);
+      }
+    }
+    .animate-cta-pulse {
+      animation: cta-pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+  </style>
+</head>
+<body class="bg-[#F8FAFC] text-slate-800 antialiased selection:bg-teal-500 selection:text-white">
+
+  <!-- ==========================================
+       1. HEADER / ENCABEZADO
+       ========================================== -->
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-18 py-3">
+        <!-- Logo / Marca -->
+        <a href="#inicio" class="flex items-center gap-2.5">
+          <div class="w-9 h-9 rounded-xl bg-teal-600 flex items-center justify-center text-white shadow-sm">
+            <i data-lucide="users" class="w-5 h-5"></i>
+          </div>
+          <div class="flex flex-col">
+            <span class="text-base font-extrabold tracking-tight text-slate-900">FORO DDHH</span>
+            <span class="text-xs font-semibold tracking-wide text-teal-700">MÓDULO 4</span>
+          </div>
+        </a>
+
+        <!-- Enlaces de navegación desktop -->
+        <nav class="hidden md:flex items-center gap-6 text-sm font-semibold text-slate-600">
+          <a href="#inicio" class="hover:text-teal-700 transition-colors">Inicio</a>
+          <a href="#comisiones" class="hover:text-teal-700 transition-colors">Comisiones</a>
+          <a href="#organizacion" class="hover:text-teal-700 transition-colors">Ruta y Reporte</a>
+          <a href="#preguntas" class="hover:text-teal-700 transition-colors">Preguntas</a>
+        </nav>
+
+        <!-- Botón CTA en Header -->
+        <div class="flex items-center gap-3">
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScIBOq6v5tvlUyVsbjks06WS1JWoWGx5omuLc_gXL_aQLjvGQ/viewform?usp=publish-editor"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-5 py-2.5 text-xs sm:text-sm font-bold text-white bg-teal-600 hover:bg-teal-700 rounded-xl shadow-md transition-all"
+          >
+            <span>Inscríbete aquí</span>
+            <i data-lucide="external-link" class="w-4 h-4"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================
+         2. HERO SECTION / INTRODUCCIÓN
+         ========================================== -->
+    <section id="inicio" class="relative pt-10 pb-16 md:pt-16 md:pb-24 bg-gradient-to-b from-teal-50/50 via-white to-slate-50 overflow-hidden">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl mx-auto text-center space-y-6">
+          <!-- Lema de trabajo -->
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gradient-to-r from-teal-100 to-amber-100 border border-teal-200 text-xs sm:text-sm font-bold text-teal-950 shadow-sm">
+            <i data-lucide="clock" class="w-4 h-4 text-teal-700"></i>
+            <span>Lema de trabajo:</span>
+            <span class="text-teal-800 underline decoration-amber-400 decoration-2">"Ganarle tiempo al tiempo"</span>
+          </div>
+
+          <!-- Título Principal -->
+          <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
+            COMISIONES PARA EL FORO DE DERECHOS HUMANOS
+          </h1>
+
+          <!-- Subtítulo -->
+          <p class="text-xl sm:text-2xl font-bold text-teal-700">
+            Organización colaborativa para el evento del Módulo 4
+          </p>
+
+          <!-- Bienvenida y Objetivo -->
+          <p class="text-base sm:text-lg text-slate-600 leading-relaxed">
+            ¡Bienvenidas y bienvenidos! El Foro de Derechos Humanos es una oportunidad clave para el aprendizaje colectivo, el debate y el liderazgo estudiantil. Para garantizar el éxito y la calidad del encuentro, trabajaremos en equipos autónomos coordinados bajo un esquema participativo y eficiente.
+          </p>
+
+          <!-- Botones de Acción -->
+          <div class="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLScIBOq6v5tvlUyVsbjks06WS1JWoWGx5omuLc_gXL_aQLjvGQ/viewform?usp=publish-editor"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="animate-cta-pulse inline-flex items-center justify-center gap-3 px-8 py-4 text-base sm:text-lg font-extrabold text-white bg-gradient-to-r from-teal-600 to-emerald-600 hover:from-teal-500 hover:to-emerald-500 rounded-2xl shadow-xl transition-all w-full sm:w-auto"
+            >
+              <span>Inscríbete aquí</span>
+              <i data-lucide="external-link" class="w-5 h-5"></i>
+            </a>
+
+            <a
+              href="#comisiones"
+              class="inline-flex items-center justify-center gap-2 px-6 py-4 text-sm sm:text-base font-bold text-slate-700 bg-white hover:bg-slate-50 border border-slate-300 rounded-2xl shadow-sm transition-colors w-full sm:w-auto"
+            >
+              <span>Conoce las 4 comisiones</span>
+              <i data-lucide="arrow-down" class="w-4 h-4"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         3. SECCIÓN DE COMISIONES (EL NÚCLEO)
+         ========================================== -->
+    <section id="comisiones" class="py-16 md:py-24 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-14">
+          <p class="text-xs sm:text-sm font-extrabold uppercase tracking-widest text-teal-600 mb-2">
+            El Núcleo del Evento
+          </p>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+            Las 4 Comisiones del Foro
+          </h2>
+          <p className="mt-3 text-base text-slate-600">
+            Descubre las funciones definidas en la infografía oficial y postúlate a la comisión donde mejor puedas aportar.
+          </p>
+        </div>
+
+        <!-- Cuadrícula 2x2 en Escritorio, 1 Columna en Móvil -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- Tarjeta 1: Logística (Teal) -->
+          <article class="rounded-3xl bg-white border border-teal-200 hover:border-teal-400 shadow-sm hover:shadow-xl transition-all duration-300 p-7 flex flex-col justify-between">
+            <div>
+              <div class="flex items-start justify-between gap-4 mb-5">
+                <div class="w-16 h-16 rounded-2xl bg-teal-600 text-white flex items-center justify-center shadow-lg shadow-teal-600/30">
+                  <i data-lucide="package" class="w-8 h-8"></i>
+                </div>
+                <span class="px-3 py-1 rounded-full text-xs font-bold bg-teal-50 text-teal-800 border border-teal-200">
+                  Espacio y Recursos
+                </span>
+              </div>
+              <h3 class="text-2xl font-extrabold text-slate-900">Comisión de Logística</h3>
+              <div class="mt-3 p-3.5 rounded-xl bg-slate-50 border border-slate-200">
+                <p class="text-xs font-bold text-slate-500 uppercase">Función:</p>
+                <p class="text-base font-bold text-slate-800 mt-0.5">"Gestiona el espacio físico y recursos."</p>
+              </div>
+              <p class="mt-4 p-3 rounded-xl bg-amber-50/70 border border-amber-200 text-xs sm:text-sm text-slate-700 leading-relaxed">
+                <strong class="font-bold text-slate-900">Liderazgo:</strong> Al unirte a esta comisión, trabajarás bajo el liderazgo de un representante que coordinará los requerimientos de espacio y materiales.
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+              <span class="text-xs text-slate-500 font-medium">Suministros y Audiovisual</span>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLScIBOq6v5tvlUyVsbjks06WS1JWoWGx5omuLc_gXL_aQLjvGQ/viewform?usp=publish-editor"
+                target="_blank"
+                class="px-4 py-2 rounded-xl text-xs font-bold text-white bg-teal-600 hover:bg-teal-700 transition-all inline-flex items-center gap-1.5"
+              >
+                <span>Postularme</span>
+                <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Tarjeta 2: Académica (Azul Claro) -->
+          <article class="rounded-3xl bg-white border border-sky-200 hover:border-sky-400 shadow-sm hover:shadow-xl transition-all duration-300 p-7 flex flex-col justify-between">
+            <div>
+              <div class="flex items-start justify-between gap-4 mb-5">
+                <div class="w-16 h-16 rounded-2xl bg-sky-600 text-white flex items-center justify-center shadow-lg shadow-sky-600/30">
+                  <i data-lucide="book-open" class="w-8 h-8"></i>
+                </div>
+                <span class="px-3 py-1 rounded-full text-xs font-bold bg-sky-50 text-sky-800 border border-sky-200">
+                  Contenido del Evento
+                </span>
+              </div>
+              <h3 class="text-2xl font-extrabold text-slate-900">Comisión Académica</h3>
+              <div class="mt-3 p-3.5 rounded-xl bg-slate-50 border border-slate-200">
+                <p class="text-xs font-bold text-slate-500 uppercase">Función:</p>
+                <p class="text-base font-bold text-slate-800 mt-0.5">"Diseña el contenido del evento."</p>
+              </div>
+              <p class="mt-4 p-3 rounded-xl bg-amber-50/70 border border-amber-200 text-xs sm:text-sm text-slate-700 leading-relaxed">
+                <strong class="font-bold text-slate-900">Liderazgo:</strong> Al unirte a esta comisión, trabajarás bajo el liderazgo de un representante que consolidará las ponencias y memorias conceptuales.
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+              <span class="text-xs text-slate-500 font-medium">Ejes temáticos y debates</span>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLScIBOq6v5tvlUyVsbjks06WS1JWoWGx5omuLc_gXL_aQLjvGQ/viewform?usp=publish-editor"
+                target="_blank"
+                class="px-4 py-2 rounded-xl text-xs font-bold text-white bg-sky-600 hover:bg-sky-700 transition-all inline-flex items-center gap-1.5"
+              >
+                <span>Postularme</span>
+                <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Tarjeta 3: Protocolo (Amarillo / Ámbar) -->
+          <article class="rounded-3xl bg-white border border-amber-200 hover:border-amber-400 shadow-sm hover:shadow-xl transition-all duration-300 p-7 flex flex-col justify-between">
+            <div>
+              <div class="flex items-start justify-between gap-4 mb-5">
+                <div class="w-16 h-16 rounded-2xl bg-amber-500 text-white flex items-center justify-center shadow-lg shadow-amber-500/30">
+                  <i data-lucide="award" class="w-8 h-8"></i>
+                </div>
+                <span class="px-3 py-1 rounded-full text-xs font-bold bg-amber-50 text-amber-800 border border-amber-200">
+                  Conducción e Invitados
+                </span>
+              </div>
+              <h3 class="text-2xl font-extrabold text-slate-900">Comisión de Protocolo</h3>
+              <div class="mt-3 p-3.5 rounded-xl bg-slate-50 border border-slate-200">
+                <p class="text-xs font-bold text-slate-500 uppercase">Función:</p>
+                <p class="text-base font-bold text-slate-800 mt-0.5">"Dirige el evento y atiende a invitados."</p>
+              </div>
+              <p class="mt-4 p-3 rounded-xl bg-amber-50/70 border border-amber-200 text-xs sm:text-sm text-slate-700 leading-relaxed">
+                <strong class="font-bold text-slate-900">Liderazgo:</strong> Al unirte a esta comisión, trabajarás bajo el liderazgo de un representante que coordinará la maestría de ceremonia y el protocolo oficial.
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+              <span class="text-xs text-slate-500 font-medium">Locución y recepciones</span>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLScIBOq6v5tvlUyVsbjks06WS1JWoWGx5omuLc_gXL_aQLjvGQ/viewform?usp=publish-editor"
+                target="_blank"
+                class="px-4 py-2 rounded-xl text-xs font-bold text-white bg-amber-600 hover:bg-amber-700 transition-all inline-flex items-center gap-1.5"
+              >
+                <span>Postularme</span>
+                <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Tarjeta 4: Difusión (Naranja) -->
+          <article class="rounded-3xl bg-white border border-orange-200 hover:border-orange-400 shadow-sm hover:shadow-xl transition-all duration-300 p-7 flex flex-col justify-between">
+            <div>
+              <div class="flex items-start justify-between gap-4 mb-5">
+                <div class="w-16 h-16 rounded-2xl bg-orange-600 text-white flex items-center justify-center shadow-lg shadow-orange-600/30">
+                  <i data-lucide="megaphone" class="w-8 h-8"></i>
+                </div>
+                <span class="px-3 py-1 rounded-full text-xs font-bold bg-orange-50 text-orange-800 border border-orange-200">
+                  Convocatoria y Redes
+                </span>
+              </div>
+              <h3 class="text-2xl font-extrabold text-slate-900">Comisión de Difusión</h3>
+              <div class="mt-3 p-3.5 rounded-xl bg-slate-50 border border-slate-200">
+                <p class="text-xs font-bold text-slate-500 uppercase">Función:</p>
+                <p class="text-base font-bold text-slate-800 mt-0.5">"Promueve la convocatoria."</p>
+              </div>
+              <p class="mt-4 p-3 rounded-xl bg-amber-50/70 border border-amber-200 text-xs sm:text-sm text-slate-700 leading-relaxed">
+                <strong class="font-bold text-slate-900">Liderazgo:</strong> Al unirte a esta comisión, trabajarás bajo el liderazgo de un representante que dinamizará las comunicaciones para motivar la asistencia.
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+              <span class="text-xs text-slate-500 font-medium">Diseño, afiches y cobertura</span>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLScIBOq6v5tvlUyVsbjks06WS1JWoWGx5omuLc_gXL_aQLjvGQ/viewform?usp=publish-editor"
+                target="_blank"
+                class="px-4 py-2 rounded-xl text-xs font-bold text-white bg-orange-600 hover:bg-orange-700 transition-all inline-flex items-center gap-1.5"
+              >
+                <span>Postularme</span>
+                <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         4. SECCIÓN DE ORGANIZACIÓN Y REPORTE
+         ========================================== -->
+    <section id="organizacion" class="py-16 md:py-24 bg-slate-50 border-y border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-14">
+          <p class="text-xs sm:text-sm font-extrabold uppercase tracking-widest text-teal-600 mb-2">
+            Flujo de Trabajo
+          </p>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+            1. Inscripción &rarr; 2. Grupos y Representantes &rarr; 3. Informe Unificado
+          </h2>
+          <p class="mt-3 text-base text-slate-600">
+            Una ruta clara hacia el Foro, coordinada por Samuel López con informe unificado para el Prof. Juan Carlos Suárez.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+          <!-- Paso 1 -->
+          <div class="bg-white rounded-3xl p-7 border border-slate-200 shadow-sm flex flex-col justify-between">
+            <div>
+              <span class="w-10 h-10 rounded-xl bg-teal-600 text-white font-black text-sm flex items-center justify-center mb-4">01</span>
+              <h3 class="text-xl font-bold text-slate-900 mb-2">1. Inscripción</h3>
+              <p class="text-sm text-slate-600 leading-relaxed">
+                Cada estudiante completa el formulario de Google indicando su comisión de interés para conformar de inmediato los equipos.
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-100">
+              <span class="text-xs font-bold text-teal-700">Paso en curso</span>
+            </div>
+          </div>
+
+          <!-- Paso 2 -->
+          <div class="bg-white rounded-3xl p-7 border border-slate-200 shadow-sm flex flex-col justify-between">
+            <div>
+              <span class="w-10 h-10 rounded-xl bg-amber-500 text-white font-black text-sm flex items-center justify-center mb-4">02</span>
+              <h3 class="text-xl font-bold text-slate-900 mb-2">2. Grupos y Representantes</h3>
+              <p class="text-sm text-slate-600 leading-relaxed">
+                Se crean los grupos de WhatsApp por comisión. Cada comisión designa a su representante para liderar las tareas internas.
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-100">
+              <span class="text-xs font-bold text-amber-700">1 representante por equipo</span>
+            </div>
+          </div>
+
+          <!-- Paso 3 -->
+          <div class="bg-white rounded-3xl p-7 border border-teal-300 ring-2 ring-teal-500/10 shadow-md flex flex-col justify-between">
+            <div>
+              <span class="w-10 h-10 rounded-xl bg-sky-600 text-white font-black text-sm flex items-center justify-center mb-4">03</span>
+              <h3 class="text-xl font-bold text-slate-900 mb-2">3. Informe Unificado</h3>
+              <p class="text-sm text-slate-600 leading-relaxed">
+                Los 4 representantes se unifican para generar un solo informe consolidado de avance que será entregado al <strong class="text-slate-900">Prof. Juan Carlos Suárez</strong>.
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-100">
+              <span class="text-xs font-bold text-sky-700">Una sola fuente oficial para el profesor</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Banner explicativo destacado -->
+        <div class="rounded-3xl bg-slate-900 text-white p-8 sm:p-10 shadow-xl">
+          <div class="max-w-3xl space-y-3">
+            <h3 class="text-2xl font-bold">Coordinación transparente y eficiente</h3>
+            <p class="text-sm sm:text-base text-slate-300 leading-relaxed">
+              El objetivo de este esquema es que el <strong>Prof. Juan Carlos Suárez</strong> reciba la información de una misma fuente oficial, clara y centralizada, gracias al trabajo articulado entre los representantes de cada comisión y la coordinación general de <strong>Samuel López</strong>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         5. PREGUNTAS FRECUENTES (FAQ)
+         ========================================== -->
+    <section id="preguntas" class="py-16 md:py-24 bg-white">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl font-extrabold text-slate-900">Preguntas Frecuentes</h2>
+          <p class="mt-2 text-slate-600">Dudas habituales sobre la organización del Foro del Módulo 4.</p>
+        </div>
+
+        <div class="space-y-4">
+          <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200">
+            <h4 class="font-bold text-slate-900 text-base">¿Cuál es el lema del equipo organizador?</h4>
+            <p class="mt-1 text-sm text-slate-600">"Ganarle tiempo al tiempo y trabajar en equipo", asegurando una preparación sólida con suficiente antelación.</p>
+          </div>
+          <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200">
+            <h4 class="font-bold text-slate-900 text-base">¿Quién recibirá el informe de avance?</h4>
+            <p class="mt-1 text-sm text-slate-600">El Prof. Juan Carlos Suárez recibirá un único informe unificado preparado conjuntamente por los representantes de las cuatro comisiones.</p>
+          </div>
+          <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200">
+            <h4 class="font-bold text-slate-900 text-base">¿Cómo me inscribo formalmente?</h4>
+            <p class="mt-1 text-sm text-slate-600">Completando el formulario de Google oficial compartido por el coordinador Samuel López en el botón principal.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================
+       6. FOOTER / PIE DE PÁGINA
+       ========================================== -->
+  <footer class="bg-slate-900 text-slate-400 py-12 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+        <div>
+          <p class="text-lg font-bold text-white">Interanual de DDHH - Módulo 4</p>
+          <p class="text-xs text-slate-400 mt-1">Coordinación Estudiantil: Samuel López · Docente Asesor: Prof. Juan Carlos Suárez</p>
+        </div>
+        <div class="flex items-center gap-4 text-xs">
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScIBOq6v5tvlUyVsbjks06WS1JWoWGx5omuLc_gXL_aQLjvGQ/viewform?usp=publish-editor"
+            target="_blank"
+            class="text-teal-400 hover:text-teal-300 font-bold"
+          >
+            Formulario de Google
+          </a>
+          <span>·</span>
+          <span>Año 2026</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Inicializar iconos Lucide
+    lucide.createIcons();
+  </script>
+</body>
+</html>

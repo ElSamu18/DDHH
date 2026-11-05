@@ -1,0 +1,7 @@
+# Vercel Ignore File
+.aistudio/
+.playwright-cli/
+node_modules/
+dist/
+.git/
+*.log
